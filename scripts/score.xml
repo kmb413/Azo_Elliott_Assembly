@@ -9,7 +9,7 @@
     
     <FILTERS>
         <PoseInfo name="p_info"/>
-    </MOVERS>
+    </FILTERS>
 
     <APPLY_TO_POSE>
     </APPLY_TO_POSE>
