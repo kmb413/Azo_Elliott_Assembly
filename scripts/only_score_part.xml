@@ -1,0 +1,20 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+        <ScoreFunction name="myscore" weights="talaris2014_cst.wts" />
+    </SCOREFXNS>
+    <RESIDUE_SELECTORS>
+    </RESIDUE_SELECTORS>
+    <TASKOPERATIONS>
+    </TASKOPERATIONS>
+    
+    <FILTERS>
+        <PoseInfo name="p_info"/>
+    </MOVERS>
+
+    <APPLY_TO_POSE>
+    </APPLY_TO_POSE>
+
+    <PROTOCOLS>
+        <Add filter="p_info" />
+    </PROTOCOLS>
+</ROSETTASCRIPTS>
